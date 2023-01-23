@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./image/background.webp");
+}
+.big-container {
+  background: rgb(229, 233, 233);
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 36vw;
+  height: 80vh;
+  margin-left: 52vw;
+  margin-top: 15vh;
+}
+
+.login {
+  position: absolute;
+  width: 341px;
+  height: 70px;
+  left: 934px;
+  top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58.0909px;
+  line-height: 70px;
+
+  color: #000000;
+}
+.emailaddress {
+  width: 107px;
+  position: relative;
+  padding-bottom: 1px;
+  margin-left: 20px;
+  height: 24px;
+  top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 24px;
+  color: #18181b;
+}
+.form {
+  width: 560px;
+  height: 95px;
+  color: blue;
+  margin-left: 10px;
+  margin-top: 12px;
+  padding-top: 33px;
+}
+/* .submitform{
+
+ } */
+
+.form input {
+  width: 474px;
+  height: 55px;
+  margin-left: 20px;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: large;
+  text-align: center;
+}
+
+.login-button {
+  width: 254px;
+  height: 52px;
+  margin-left: 35px;
+  margin-top: 60px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: large;
+  background: rgb(109, 193, 232);
+}
+.login-button:hover {
+  background: rgb(59, 143, 182);
+  cursor: pointer;
+}
+
+.data-container {
+  position: absolute;
+  background: rgb(229, 233, 233);
+  border: 1px solid black;
+  border-radius: 8px;
+  top: 0px;
+  right: 804px;
+  width: 48vw;
+  height: 80vh;
+  margin-left: 52vw;
+  margin-top: 15vh;
+}
+
+.datalist {
+  width: 45vw;
+  padding-left: 5px;
+  margin-left: 20px;
+  margin-top: 7px;
+  height: 6vh;
+  border: 0.5px solid black;
+  border-radius: 8px;
+  display: flex;
+}
+.smalldatacontainer {
+  position: relative;
+  border-radius: 8px;
+  padding-top: 2px;
+  width: 47vw;
+  height: 78vh;
+  margin-left: 0.2vw;
+  margin-top: 1vh;
+}
+.Edit {
+  width: 4vw;
+  margin-left: 20px;
+  margin-top: 7px;
+  height: 4vh;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: green;
+  padding-left: 13px;
+  border: 0.5px solid black;
+  border-radius: 3px;
+}
+.delete {
+  width: 4vw;
+  margin-left: 20px;
+  margin-top: 7px;
+  height: 4vh;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: rgb(230, 24, 9);
+  padding-left: 13px;
+  border: 0.5px solid black;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.DataHeading {
+  font-weight: 500;
+  color: #000000;
+}
